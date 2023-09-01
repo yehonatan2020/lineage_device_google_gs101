@@ -1,11 +1,7 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The StatixSE Project
 #
 # SPDX-License-Identifier: Apache-2.0
-#
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-lineage
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
@@ -22,9 +18,6 @@ PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 # EUICC
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
-
-# Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
 
 # Parts
 PRODUCT_PACKAGES += \
